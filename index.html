@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculadora de Daño Pokémon</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/PokemonFormCalc/styles.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+
+        <h1 id="title">Pokémon Damage Calculator</h1>
+        <div id="images">
+            <a href="https://pokemondb.net/pokedex/blastoise"><img
+                    src="https://img.pokemondb.net/sprites/diamond-pearl/normal/blastoise.png" alt="Blastoise"></a>
+            <a href="https://pokemondb.net/pokedex/venusaur"><img
+                    src="https://img.pokemondb.net/sprites/diamond-pearl/normal/venusaur-f.png" alt="Venusaur"></a>
+            <a href="https://pokemondb.net/pokedex/charizard"><img
+                    src="https://img.pokemondb.net/sprites/diamond-pearl/normal/charizard.png" alt="Charizard"></a>
+        </div>
+    </header>
+
+    <main>
+        <div id="formulario">
+            <h2>Enter battle info</h2>
+            <form id="info">
+                <p>
+                    <label for="tipo1">Attacking Pokémon Type: </label>
+                    <input type="text" id="tipo1">
+                </p>
+                <p>
+                    <label for="tipo2">Defending Pokémon Type: </label>
+                    <input type="text" id="tipo2">
+                </p>
+                <p>
+                    <label for="ataque">Attack stat: </label>
+                    <input type="text" id="ataque">
+                </p>
+                <p>
+                    <label for="defensa">Defense stat: </label>
+                    <input type="text" id="defensa">
+                </p>
+               <button type="button" onclick="captura()">Submit</button>
+            </form>
+            <textarea id="result"></textarea>
+        </div>
+    </main>
+
+</body>
+
+<script src="/PokemonFormCalc/thecode.js"></script>
+
+</html>

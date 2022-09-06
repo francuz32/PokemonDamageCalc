@@ -1,0 +1,81 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(99, 99, 211);
+    font-family: 'Pixel';
+}
+
+@font-face {
+    font-family: 'Pixel';
+    src: url(/PokemonFormCalc/ARCADECLASSIC.TTF);
+}
+
+h1 {
+    font-family: 'Pixel';
+    font-size: 70px;
+    color: rgb(238, 238, 83);
+    text-align: center;
+    text-shadow: skyblue;
+
+    margin-top: 1%;
+}
+
+img {
+    width: 90px;
+    margin: 20px;
+}
+
+#images {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(99, 99, 211);
+
+    font-size: 2.4rem;
+    margin-bottom: 75px;
+}
+
+#formulario {
+    width: 75%;
+    height: 700px;
+    background-color: rgb(255, 255, 91);
+
+    padding: 25px;
+    border-radius: 15px;
+    font-size: larger;
+    color: rgb(99, 99, 211);
+}
+
+p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+label{
+    width: 100px;
+    display: inline-block;
+    text-align: left;
+}
+
+#result {
+    width: 100%;
+    height: 33%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-left: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(196, 196, 247);
+    font-size: 18px;
+}
+button{
+    color: rgb(99, 99, 211);
+    font-family: 'Pixel';
+    font-size: 18px;
+    margin-left: 100px;
+}
